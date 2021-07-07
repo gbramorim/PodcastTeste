@@ -1,5 +1,5 @@
 import axios from 'axios'
 
 export const api = axios.create({
-  baseURL: process.env.example
+  baseURL: process.env.API_URL || 'podcastprof.vercel.app'
 })
